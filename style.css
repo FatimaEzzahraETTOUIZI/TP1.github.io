@@ -1,0 +1,23 @@
+.imgStyle {border: 7px solid #ddd; border-radius: 50%; }
+
+.NomPrenomStyle{font-size: 30px;font-family: 'Lora', serif;}
+
+h2 { font-family: 'Lora', serif;}
+
+#entete_cv {background-color: #f4f9f1;}
+#formation {background-color: #f6e7e2;}
+#connaissances {background-color: #fbf4f9;}
+#langues {background-color: #f6e7e6;}
+#loisirs {background-color: #fbf4f9;}
+#contact {background-color: #f6e5f5}
+
+#entete_cv{ line-height: 70%;}
+#formation{line-height: 160%;}
+#connaissances{line-height: 160%;}
+
+.souligne{text-decoration: underline black;}
+
+button:hover {
+  background-color: blue;
+  color: white;
+}
