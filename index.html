@@ -2,66 +2,140 @@
 <html>
 <head>
   <title>Mon site web</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Texturina:wght@100&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=KoHo:ital,wght@1,300&family=Newsreader&display=swap" rel="stylesheet">
+
+  <style>
+  body{
+    background-color: #d4d4d4;
+  }
+  #header{
+    background-color: #c45fb7;
+    padding: 1%;
+    margin-bottom: 2%;
+    box-shadow: 5px 10px #888888;
+    border-radius: 10px;
+  }
+  #module{
+      font-family: 'Texturina', serif;
+      font-size: 40px;
+      color: white;
+      text-align: center;
+  }
+  #classe{
+    color: white;
+    font-size: 20px;
+    text-align: right;
+  }
+  a:hover{
+    text-shadow: 0 0 10px;
+
+  }
+  a{
+    color: #c45fb7;
+    text-decoration: none;
+  }
+  #container{
+    line-height: 25px;
+    background: lightblue url("xx.jpg") no-repeat;
+    padding: 1%;
+    color: white;
+    border-radius: 3%;
+    font-family: 'Newsreader', serif;
+    box-shadow: 5px 5px #888888;
+  }
+
+  footer{
+    background-color: #dd9369;
+    padding: 1%;
+    margin-top: 1%;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 5px 10px #888888;
+    font-family: 'KoHo', sans-serif;
+  }
+  #name{
+    font-size: 20px;
+  }
+  #maj{
+    font-size: 10px;
+    text-align: right;
+  }
+  </style>
+
 </head>
 
 <body>
-<strong>Fatima Ezzahra ET-TOUIZI</strong>
-<hr>
-  <ul>
-    <li>TP 1 :
-      <ul>
-        <li><a href="./cvhtml.html" target="_blank">EXERCICE 1 : CV_Html</a></li>
-        <li><a href="./cvcss.html" target="_blank">EXERCICE 2 : CV_Html&Css</a></li>
-      </ul>
-    </li>
-    <li>TP 2 :
-    <ul>
-      <li>Exercice 1:
-      <ul>
-        <li>Question 1 :
-        <ul>
-          <li>Positionnement absolu :
-          <ul>
-            <li><a href="./figure1_positionnement_absolu.html" target="_blank">Figure_1</a></li>
-            <li><a href="./figure2_positionnement_absolu.html" target="_blank">Figure_2</a></li>
-            <li><a href="./figure3_Positionnement_absolu.html" target="_blank">Figure_3</a></li>
-            <li><a href="./figure4_Positionnement_absolu.html" target="_blank">Figure_4</a></li>
-          </ul></li>
-          <li>Positionnement relatif :
-          <ul>
-            <li><a href="./figure1_positionnement_relatif.html" target="_blank">Figure_1</a></li>
-            <li><a href="./figure2_ Positionnement_relatif.html" target="_blank">Figure_2</a></li>
-            <li><a href="./figure3_Positionnement_relatif.html" target="_blank">Figure_3</a></li>
-            <li><a href="./figure4_Positionnement_relatif.html" target="_blank">Figure_4</a></li>
-          </ul></li>
-        </ul></li>
-        <li>Question 2 (en utilisant bootstrap) :
-        <ul>
-          <li>Positionnement absolu :
-          <ul>
-            <li><a href="./figure1_bootstrap_positionnement_absolu.html" target="_blank">Figure_1</a></li>
-            <li><a href="./figure2_bootstrap_positionnement_absolu.html" target="_blank">Figure_2</a></li>
-            <li><a href="./figure3_bootstrap_positionnement_absolu.html" target="_blank">Figure_3</a></li>
-            <li><a href="./figure4_bootstrap_positionnement_absolu.html" target="_blank">Figure_4</a></li>
-          </ul></li>
-          <li>Positionnement relatif :
-          <ul>
-            <li><a href="./figure1_bootstrap_positionnement_relatif.html" target="_blank">Figure_1</a></li>
-            <li><a href="./figure2_bootstrap_positionnement_relatif.html" target="_blank">Figure_2</a></li>
-            <li><a href="./figure3_bootstrap_positionnement_relatif.html" target="_blank">Figure_3</a></li>
-            <li><a href="./figure4_bootstrap_positionnement_relatif.html" target="_blank">Figure_4</a></li>
-          </ul></li>
-        </li>
-      </ul>
-    </li>
-  </ul>
-<li>Exercice 2:
-  <ul>
-    <li>Question 1 :<a href="./figure_5.html" target="_blank">Figure_5</a></li>
-    <li>Question 2 :<a href="./figure5_responsive.html" target="_blank">l'interface responsive et conforme aux descriptions données sur les figures 5.1 et 5.2</a></li>
-    <li>Question 3 :<a href="./QST3_EX2_BOOTSTRAP.html" target="_blank">l'exercice avec BOOTSTRAP.</a></li>
-  </ul>
-</li>
 
+  <div id="header">
+    <p id="module"><strong>Développement d'applications Web</strong></p>
+    <p id="classe">GI_1</p>
+  </div>
+
+  <div id="container">
+    <ul>
+      <li>TP 1 :
+        <ul>
+          <li><a href="./cvhtml.html" target="_blank">EXERCICE 1 : CV_Html</a></li>
+          <li><a href="./cvcss.html" target="_blank">EXERCICE 2 : CV_Html&Css</a></li>
+        </ul>
+      </li>
+      <li>TP 2 :
+      <ul>
+        <li>Exercice 1:
+        <ul>
+          <li>Question 1 :
+          <ul>
+            <li>Positionnement absolu :
+            <ul>
+              <li><a href="./figure1_positionnement_absolu.html" target="_blank">Figure_1</a></li>
+              <li><a href="./figure2_positionnement_absolu.html" target="_blank">Figure_2</a></li>
+              <li><a href="./figure3_positionnement_absolu.html" target="_blank">Figure_3</a></li>
+              <li><a href="./figure4_positionnement_absolu.html" target="_blank">Figure_4</a></li>
+            </ul></li>
+            <li>Positionnement relatif :
+            <ul>
+              <li><a href="./figure1_positionnement_relatif.html" target="_blank">Figure_1</a></li>
+              <li><a href="./figure2_positionnement_relatif.html" target="_blank">Figure_2</a></li>
+              <li><a href="./figure3_positionnement_relatif.html" target="_blank">Figure_3</a></li>
+              <li><a href="./figure4_positionnement_relatif.html" target="_blank">Figure_4</a></li>
+            </ul></li>
+          </ul></li>
+          <li>Question 2 (en utilisant bootstrap) :
+          <ul>
+            <li>Positionnement absolu :
+            <ul>
+              <li><a href="./figure1_bootstrap_positionnement_absolu.html" target="_blank">Figure_1</a></li>
+              <li><a href="./figure2_bootstrap_positionnement_absolu.html" target="_blank">Figure_2</a></li>
+              <li><a href="./figure3_bootstrap_positionnement_absolu.html" target="_blank">Figure_3</a></li>
+              <li><a href="./figure4_bootstrap_positionnement_absolu.html" target="_blank">Figure_4</a></li>
+            </ul></li>
+            <li>Positionnement relatif :
+            <ul>
+              <li><a href="./figure1_bootstrap_positionnement_relatif.html" target="_blank">Figure_1</a></li>
+              <li><a href="./figure2_bootstrap_positionnement_relatif.html" target="_blank">Figure_2</a></li>
+              <li><a href="./figure3_bootstrap_positionnement_relatif.html" target="_blank">Figure_3</a></li>
+              <li><a href="./figure4_bootstrap_positionnement_relatif.html" target="_blank">Figure_4</a></li>
+            </ul></li>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  <li>Exercice 2:
+    <ul>
+      <li>Question 1 : <a href="./figure_5.html" target="_blank">Figure_5</a></li>
+      <li>Question 2 : <a href="./QST2_EX2.html" target="_blank">l'interface responsive et conforme aux descriptions données sur les figures 5.1 et 5.2</a></li>
+      <li>Question 3 : <a href="./QST3_EX2_BOOTSTRAP.html" target="_blank">l'exercice avec BOOTSTRAP.</a></li>
+    </ul>
+  </li>
+
+  </div>
+
+  <footer><p id="name">Fatima Ezzahra ET-TOUIZI</p><p id="maj">Dernière mise à jour : 10-05-2021</p> </footer>
 </body>
 </html>
+
